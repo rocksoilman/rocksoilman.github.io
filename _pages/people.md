@@ -10,8 +10,8 @@ author_profile: false
 <h1><i class="fas fa-user-tie" aria-hidden="true"></i>&nbsp; &nbsp; Faculty</h1>
 
 <div class="page__col-wrap">
-<div class="people__lcol"><div class="people__avatar"><img src="https://mdbartos.s3.us-east-2.amazonaws.com/img/Matt_Bartos.jpeg"></div></div>
-<div class="people__rcol"><h1>Matt Bartos</h1> <b>Assistant Professor, Department of Civil, Architectural and Environmental Engineering</b> <br> <br> Ph.D. Civil Engineering, University of Michigan, 2020 <br> M.S. Electrical and Computer Engineering, University of Michigan, 2019 <br> M.S.E. Civil Engineering, University of Michigan, 2019 <br> B.S.E. Environmental Engineering, Arizona State University, 2013 <br> B.A. English Literature, Arizona State University, 2013
+<div class="people__lcol"><div class="people__avatar"><img src="https://github.com/rocksoilman/rocksoilman.github.io/blob/main/gkym1zhm.jpeg"></div></div>
+<div class="people__rcol"><h1>孟庆祥</h1> <b>Assistant Professor, Department of Civil, Architectural and Environmental Engineering</b> <br> <br> Ph.D. Civil Engineering, University of Michigan, 2020 <br> M.S. Electrical and Computer Engineering, University of Michigan, 2019 <br> M.S.E. Civil Engineering, University of Michigan, 2019 <br> B.S.E. Environmental Engineering, Arizona State University, 2013 <br> B.A. English Literature, Arizona State University, 2013
 </div>
 </div>
 
