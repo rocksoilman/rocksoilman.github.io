@@ -24,8 +24,8 @@ author_profile: false
 <h1><i class="fas fa-user-graduate" aria-hidden="true"></i>&nbsp; &nbsp; PhD students</h1>
 
 <div class="page__col-wrap">
-<div class="people__lcol"><div class="people__avatar"><img src="https://mdbartos.s3.us-east-2.amazonaws.com/img/Yeji_Kim.jpeg"></div></div>
-<div class="people__rcol"><h1>Yeji Kim</h1> <b>PhD student, Department of Civil, Architectural and Environmental Engineering</b> <br> <br> M.S. Earth Sciences and Environmental Engineering, Gwangju Institute of Science and Technology, 2019 <br> B.S. Environmental Science and Engineering, Ewha Womans University, 2016
+<div class="people__lcol"><div class="people__avatar"><img src="https://github.com/rocksoilman/rocksoilman.github.io/blob/main/images/Fang.jpeg"></div></div>
+<div class="people__rcol"><h1>方正豪m</h1> <b>PhD student, Department of Civil, Architectural and Environmental Engineering</b> <br> <br> M.S. Earth Sciences and Environmental Engineering, Gwangju Institute of Science and Technology, 2019 <br> B.S. Environmental Science and Engineering, Ewha Womans University, 2016
 </div>
 </div>
 
