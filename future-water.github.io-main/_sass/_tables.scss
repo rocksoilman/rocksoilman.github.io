@@ -1,0 +1,45 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $global-font-family;
+  // font-size: $type-size-6;
+  font-size: $type-size-5;
+  border-collapse: collapse;
+  border: none;
+
+  & + table {
+    margin-top: 1em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0em 0 0.5em;
+      line-height: 1.2;
+      font-family: $header-font-family;
+      color: $header-color;
+      font-weight: 500;
+  }
+
+}
+
+thead {
+  background-color: $lighter-gray;
+  border-bottom: 1px solid $light-gray;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+}
+
+tr, td, th {
+  vertical-align: top;
+}

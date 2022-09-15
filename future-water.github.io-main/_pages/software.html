@@ -1,0 +1,40 @@
+---
+layout: archive
+title: "Software"
+permalink: /software/
+author_profile: false
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+{% include base_path %}
+
+
+{% for post in site.software %}
+<div class="page__col-wrap">
+<div class="page__lcol"><img src={{ post.image }}></div>
+<div class="page__rcol">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="https://github.com/{{ post.owner }}/{{ post.repo }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="https://github.com/{{ post.owner }}/{{ post.repo }}" rel="permalink">{{ post.title }}</a>
+      {% endif %}
+    </h2>
+    {% if post.description %}
+        <p>{{ post.description | markdownify }}</p>
+    {% endif %}
+    <div id="{{post.name}}_stats"></div>
+    <script>
+    var {{post.name}}_owner = "{{post.owner}}";
+    var {{post.name}}_repo = "{{post.repo}}";
+    var star_icon = '<span style="color: White;"><i class="fas fa-star"></i></span>';
+    var fork_icon = '<span style="color: White;"><i class="fas fa-code-branch"></i></span>';
+    var eye_icon = '<span style="color: White;"><i class="fas fa-eye"></i></span>';
+    $.getJSON('https://api.github.com/repos' + '/' + {{post.name}}_owner + '/' + {{post.name}}_repo, function(data) {
+    $("#{{post.name}}_stats").html('<p>' + star_icon + ' ' + data['stargazers_count'].toString() + '\xa0\xa0\xa0\xa0' + fork_icon + ' ' + data['forks_count'] + '\xa0\xa0\xa0\xa0' + eye_icon + ' ' + data['subscribers_count'] + ' </p>');
+    });
+    </script>
+</div>
+</div>
+{% endfor %}
