@@ -24,7 +24,7 @@ author_profile: false
 <h1><i class="fas fa-user-graduate" aria-hidden="true"></i>&nbsp; &nbsp; 硕士研究生</h1>
 
 <div class="page__col-wrap">
-<div class="people__lcol"><div class="people__avatar"><img src="https://raw.githubusercontent.com/rocksoilman/rocksoilman.github.io/main/images/shuaige.jpeg"></div></div>
+<div class="people__lcol"><div class="people__avatar"><img src="https://github.com/rocksoilman/rocksoilman.github.io/blob/main/images/shuaige_min.jpg?raw=true"></div></div>
 <div class="people__rcol"><h1>方正豪</h1> <b> 土木水利（岩土方向）研究生 </b> <br> <br>   黄山市田家炳实验中学  2015-2018 <br> 安徽建筑大学  2018-2022
 </div>
 </div>
